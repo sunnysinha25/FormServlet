@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style>
+input[type="text"] {
+	width: 100%;
+}
+</style>
+</head>
+<body>
+
+
+	<h3>REGISTRATION FORM</h3>
+
+	<form action="Register" method="get">
+		<table>
+			<tr>
+				<td>ENTER YOUR NAME:</td>
+				<td><input type="text" name="name"/></td>
+			</tr>
+			<tr>
+				<td>ENTER YOUR PASSWORD:</td>
+				<td><input type="text" name="pass" /></td>
+			</tr>
+			<tr>
+				<td>ENTER YOUR EMAIL:</td>
+				<td><input type="text" name="email" /></td>
+			</tr>
+			<tr>
+				<td>SELECT GENDER:</td>
+				<td><input type="radio" name="gender" value="male"/> <label for="">MALE</label>
+
+					<input type="radio" name="gender" value="female"/> <label for="">FFEMALE</label>
+				</td>
+			</tr>
+			<tr>
+				<td>SELECT YOUR COURSE:</td>
+				<td><select name="prog_lang" id="select">
+						<option value="java">JAVA</option>
+						<option value="python">PYTHON</option>
+						<option value="cpp">CPP</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="checkbox" name="terms" /> 
+				<label for="">
+				AGREE TO TERMS AND CONDITIONS
+				</label>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><button type="submit">REGISTER</button> 
+				<button type="reset">RESET</button>
+					 </td>
+			</tr>
+		</table>
+
+
+	</form>
+	
+</body>
+</html>
